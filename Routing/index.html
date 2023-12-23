@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><button>Home</button></li>
+        <li><button onclick="openUrl(this,'page1')">Page 1</button></li>
+        <li><button onclick="openUrl(this,'page2')">Page 2</button></li>
+        <li><button onclick="openUrl(this,'page3')">Page 3</button></li>
+        <li><button onclick="openUrl(this,'page4')">Page 4</button></li>
+    </ul>
+
+    <script>
+        function openUrl(ctrl, pageName) {
+            //alert('you are going to redirect to this Page ' + pageName);
+            window.location.href = `/Routing/${pageName}.html`;
+        }
+
+    </script>
+</body>
+
+</html>
