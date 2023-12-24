@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #548687;
+    margin: 20vh ; 
+    display: flex; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    height:100px;
+    width: 300px;
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#msg{
+    
+    color:rgb(255, 255, 255) ;
+}
+.Maingamebody{ 
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#GameBody{
+    height:100% ;
+    width: 100%;
+     display: flex;  
+    flex-direction:column; 
+}
+
+.GameBox{
+    height: 33.3%;
+    width: 100%;
+    display: flex; 
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 100%;
+    width: 33.3%;
+    color: black;
+    font-size: 40px;
+    background-color: lightgreen;
+    border:2px solid #191900;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#Bbox_one,#Bbox_two,#Bbox_three{
+    border-right: none;
+    border-left: none;
+}
+
+#Bbox_one,#Bbox_four,#Bbox_seven{
+    border-top: none;
+}
+
+#Bbox_seven,#Bbox_eight,#Bbox_nine{
+
+    border-right: none;
+    border-left: none;
+}
+
+#Bbox_three,#Bbox_six,#Bbox_nine{
+    border-bottom: none;
+}
+
+
+#cut{
+    text-transform: capitalize;
+    background-color: rgb(152, 152, 199);
+}
+#zero{
+    text-transform: capitalize;
+    background-color: rgb(218, 134, 178);
+}
+#reset{
+    height: 25px;
+    width: 80px;
+    margin-top: 30px;
+    color:#fff;
+    border: none;
+    border-radius: 6px;
+    background-color: #074beb;
+    text-align: center;
+    
+}
+
+
+ .players{
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
