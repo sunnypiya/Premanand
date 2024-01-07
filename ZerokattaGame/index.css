@@ -24,6 +24,13 @@ body{
     
     color:rgb(255, 255, 255) ;
 }
+
+#FullGamebody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .Maingamebody{ 
     height: 300px;
     width: 300px;
@@ -99,10 +106,22 @@ body{
     
 }
 
+.clearstorage{
+    height: 10px;
+    width: 20px;
+    color: floralwhite;
+    background-color: darkslategray;
+    border: 2px solid black;
 
- .players{
+    
+}
+/* 
 
- }
+#player_one{
+    
+    font-size:8px;
+
+ } */
 
 
 
