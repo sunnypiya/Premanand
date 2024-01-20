@@ -171,7 +171,7 @@ const winner = () => {
         condin = [
           boxes[condition[0]],
           boxes[condition[1]],
-          boxes[condition[2]],
+          boxes[condition[2]], 
         ];
 
         getfinllywiningcondition.push(condin)
